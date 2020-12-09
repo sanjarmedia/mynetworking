@@ -1,0 +1,27 @@
+.yes, .no{
+    font-size: 20px;
+    height: 100px;
+    border: none;
+    width: 200px;
+    border-radius: 7px;
+    transition: background-color 2s,
+         width 2s,
+         height 2s,
+         font-size 1s; 
+}
+.yes:hover{
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    color: white;
+    width: 210px;
+    height: 110px;
+}
+.yes > .text1{
+    display: none;
+}
+.yes:hover > .text1{
+    display: inline;
+}
+.yes:hover > .text2{
+    display: none;
+}
